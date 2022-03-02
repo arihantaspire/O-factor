@@ -1,0 +1,100 @@
+.ui-accordion .ui-accordion-header {	display: block;	cursor: pointer;    font-weight: 600;	position: relative;	margin: 0px 0 0 0;	padding: 60px 0  30px .7em;	font-size:20px;  outline: none;}
+.ui-accordion .ui-accordion-header a {	display: block;	cursor: pointer;	position: relative;	margin: 0px 0 0 0;	padding: .7em 0 .7em .7em;	font-size: 15px;  outline: none;}
+.ui-accordion .ui-accordion-icons {	padding-left: 60px; padding-right: 2em; color:#000; margin-top: 0px;  border-top: 1px solid #e8e8e8;  background: #fafafa; }
+.ui-accordion .ui-accordion-icons a {	padding-left: 1.5em;  margin-top: 5px; }
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {	padding-left: 1.2em;}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {    position: absolute;    right: 60px;    top:54%;    margin-top: 0;}
+.ui-accordion .ui-accordion-content {	border-top:1px solid #e8e8e8;	overflow: auto; margin-bottom:0px;        background: #fafafa;}
+.ui-accordion .ui-accordion-content a {	border-top: 0;	overflow: auto; margin-bottom:0px;        background: #fafafa;}
+.ui-accordion .ui-accordion-content img{ width:40%; }
+.contents-page{padding: 30px 60px 60px  0px;margin: 0 auto;   width: 87%;}
+.color-w{ color:#FFF;}
+
+
+@media only screen and (min-width : 1601px) and (max-width : 1680px) {
+.ui-accordion .ui-accordion-content { margin-bottom: 0px;  line-height: 20px;}
+.ui-accordion .ui-accordion-icons {    font-size:18px;    }
+.ui-accordion .ui-accordion-header{    padding: 45px 0 25px 50px;}
+}
+
+@media only screen and (min-width : 1441px) and (max-width : 1600px) {
+.ui-accordion .ui-accordion-content { margin-bottom: 0px;  line-height: 20px;}
+.ui-accordion .ui-accordion-icons {    font-size:18px;    }
+.ui-accordion .ui-accordion-header{    padding: 45px 60px 25px 50px;}
+}
+
+@media only screen and (min-width : 1367px) and (max-width : 1440px) {
+.ui-accordion .ui-accordion-content { margin-bottom: 0px;  line-height: 20px;}
+.ui-accordion .ui-accordion-icons {    font-size:17px;    }
+.ui-accordion .ui-accordion-header{    padding: 45px 60px 25px 50px;}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon{    top: 50%;}
+}
+
+@media only screen and (min-width : 1281px) and (max-width : 1366px) {
+.ui-accordion .ui-accordion-content { margin-bottom: 0px;  line-height: 20px;}
+.ui-accordion .ui-accordion-icons {    font-size:15px;    }
+.ui-accordion .ui-accordion-header{    padding: 45px 60px 25px 40px;}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon{    top: 50%;}
+}
+
+@media only screen and (min-width : 1153px) and (max-width : 1280px) {
+.ui-accordion .ui-accordion-content { margin-bottom: 0px;  line-height: 20px;}
+.ui-accordion .ui-accordion-icons {    font-size:15px;    }
+.ui-accordion .ui-accordion-header{    padding: 45px 60px 25px 40px;}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon{    top: 50%;}
+.contents-page { padding: 30px 30px 60px 0px; }
+}
+
+@media only screen and (min-width : 1023px) and (max-width : 1152px) {
+.ui-accordion .ui-accordion-content { margin-bottom: 0px;  line-height: 16px;}
+.ui-accordion .ui-accordion-icons {        font-size: 14px;    }
+.ui-accordion .ui-accordion-header{    padding: 30px 60px 25px 25px;}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon{       right: 25px; top: 37%;}
+.contents-page { padding: 20px 10px 60px 0px;    width: 90%; }
+}
+
+@media only screen and (min-width : 991px) and (max-width : 1024px) {
+.ui-accordion .ui-accordion-content { margin-bottom: 0px;  line-height: 16px;}
+.ui-accordion .ui-accordion-icons {        font-size: 13px;    }
+.ui-accordion .ui-accordion-header{    padding: 30px 60px 25px 25px;}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon{       right: 25px; top: 37%;}
+.contents-page { padding: 20px 10px 60px 0px;    width: 90%; }
+}
+
+@media only screen and (min-width : 800px) and (max-width : 990px) {
+.ui-accordion .ui-accordion-content img{ width:50%; }
+.ui-accordion .ui-accordion-icons {    padding-left: 1.2em;}
+	
+}
+@media only screen and (min-width : 641px) and (max-width : 800px) {
+.ui-accordion .ui-accordion-content img{ width:50%; }
+.ui-accordion .ui-accordion-icons {    padding-left: 1.2em;}	
+}
+
+@media only screen and (min-width : 481px) and (max-width : 640px) {
+.ui-accordion .ui-accordion-content img{ width:50%; }
+.ui-accordion .ui-accordion-icons {    padding-left: 1.2em;}
+}
+
+@media only screen and (min-width : 361px) and (max-width : 480px) { 
+.ui-accordion .ui-accordion-header {font-size: 15px;padding-left: 19px;padding: 30px 35px 15px .7em;}
+.ui-accordion .ui-accordion-content img {    width: 100%;}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {right: 8px;top: 38%;}
+.ui-widget-content {font-size: 13px;}
+.contents-page {padding: 14px 6px 33px 0px;width: 93%;}
+.ui-widget-content ul li {line-height: 17px;font-size: 13px;margin: 0 0 7px 0; }
+}
+	
+@media only screen and (min-width : 321px) and (max-width : 360px) {
+.ui-accordion .ui-accordion-header {font-size: 15px;padding-left: 19px;padding: 30px 0 15px .7em;}
+.ui-accordion .ui-accordion-content img {    width: 100%;}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {right: 8px;top: 38%;}
+.ui-widget-content {font-size: 13px;}
+.contents-page {padding: 14px 6px 33px 0px;width: 93%;}
+.ui-widget-content ul li {line-height: 17px;font-size: 13px;margin: 0 0 7px 0; }
+}	
+		
+@media only screen and (min-width : 240px) and (max-width : 320px) {
+.ui-accordion .ui-accordion-header {font-size: 14px;}
+.ui-accordion .ui-accordion-content img {   width: 100%;}
+}
