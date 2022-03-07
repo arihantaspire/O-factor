@@ -153,6 +153,8 @@ src="https://www.facebook.com/tr?id=2142749709369253&amp;ev=PageView&amp;noscrip
 		fbq('init', '1810440439200545');
 		fbq('track', 'PageView');
 	</script>
+
+
 	<noscript><img height="1" width="1" style="display:none"
 			src="https://www.facebook.com/tr?id=1810440439200545&amp;ev=PageView&amp;noscript=1" /></noscript>
 	<!-- End Facebook Pixel Code -->
@@ -168,6 +170,82 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <a data-scroll data-options='{ "easing": "easeOutQuad" }' href="#top" id="top"></a>
 
+<div class="popup">
+	<button id="close">&times;</button>
+	<img src="images/aspire.png" alt="" style="     width: 25%;
+    margin-top: -76%;">
+	<h2 style="margin-top: -23%;
+    margin-left: 0;
+    font-size: 19px;
+    color: white;">Register to avail great offers!</h2>
+	<p>
+	<form action="https://sheetdb.io/api/v1/c7umne4klh82w" method="POST" id="sheetdb-form">
+		<div class="form_pop"><span style="    color: white;
+			font-size: 18px;
+			font-family: auto;">Your Name: </span>
+			<input type="text" name="data[name]" placeholder="Enter your Name*"
+				style="height: 3.3rem;
+				margin: 10px;
+				border: 2px solid #00000030;
+				border-radius: 5px;
+				margin-left: 3%;" required>
+		</div>
+		<div class="form_pop"><span style="    color: white;
+			font-size: 18px;
+			font-family: auto;">Contact No.: </span>
+			<input type="text" name="data[contact]" placeholder="Enter your contact number*"
+				style="height: 3.3rem;
+				margin: 10px;
+				border: 2px solid #00000030;
+				border-radius: 5px;
+				margin-left: 3%;" required>
+		</div>
+		<div class="form_pop"><span style="    color: white;
+			font-size: 18px;
+			font-family: auto;">Your EmailId: </span>
+			<input type="email" name="data[email]" placeholder="Enter your Email Id"
+				style="height: 3.3rem;
+				margin: 10px;
+				border: 2px solid #00000030;
+				border-radius: 5px;
+				margin-left: 3%;">
+		</div>
+		</p>
+		<input type="submit" value="SUBMIT" class="popbtn" style="border-radius: 11px;
+		background-color: #878787;
+		padding: 3px 13px 4px;
+		color: white;
+		box-shadow: 0px 0px 8px black;">
+</div>
+
+<script>
+	var form = document.getElementById('sheetdb-form');
+	form.addEventListener("submit", e => {
+		e.preventDefault();
+		fetch(form.action, {
+			method: "POST",
+			body: new FormData(document.getElementById("sheetdb-form")),
+		}).then(
+			response => response.json()
+		).then((html) => {
+			// you can put any JS code here
+			alert('Thank you, We have recieved your response & will reach you soon.')
+		});
+	});
+
+	window.addEventListener("load", function () {
+            setTimeout(
+                function open(event) {
+                    document.querySelector(".popup").style.display = "block";
+                },
+                1000
+            )
+        });
+        document.querySelector("#close").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "none";
+        });
+
+</script>
 
 	<header>
 		<div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="logo" style="width: 70%; margin-left: 29%;
@@ -203,11 +281,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 					</div> -->
 					<div class="head-call">
-
-						<span>Call: </span> <a href="tel:8850075775">8850075775</a><br><span class="callsub">(Available from 10 AM to 9 PM)</span>
-
+						<span>Call: </span> <a href="tel:8850075775">8850075775</a><br><span class="callsub"></span>
 					</div>
-
 				</div>
 
 			</div>
@@ -292,7 +367,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 	<section class="project-inner-wrapper top-mar">
-
+<!-- 
 		<div class="project-subnav">
 
 
@@ -301,14 +376,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="project_navigation right default" style="display: block;">
 					<div class="magnus-sub">
 						<!-- <a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeOutQuad&quot; }" -->
-						<!-- href="#top"  class="link">   <div class="small-logo ss"><img src="images/logo-small.png" alt=""> -->
-						<!-- </a>  -->
+						<!-- href="#top"  class="link">   <div class="small-logo ss"><img src="images/logo-small.png" alt=""> --
+						<!-- </a>  --
 
 
 						<h3>
 							<ul class="breadcrumbs">
 								<!-- <li><a href="index.html">Home</a><span> > </span></li>
-								<li><a href="ongoing-projects.html">Ongoing Projects</a><span> > </span></li> -->
+								<li><a href="ongoing-projects.html">Ongoing Projects</a><span> > </span></li> --
 								<li><span class="curents">Arihant Aspire </span></li>
 							</ul>
 						</h3>
@@ -337,7 +412,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<!-- <li><a href="pricing-schedulecf27.html?project=Arihant%20Aspire" class="link price-schedule"> Pricing &
 								Schedule</a></li>
 						<li><a href="bro-enquiry26d2.html?bro=Arihant%20Aspire" class="link bro-enquiry external"> Brochure</a>
-						</li> -->
+						</li> --
 
 
 
@@ -345,7 +420,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</ul>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 
 
@@ -488,13 +563,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<ul class="slider1">
 				    <li><img src="images/projects/aspire/overview/02-02-2022.jpg" alt="Arihant Aspire - Overview" /></li>
 					<li><img src="images/projects/aspire/overview/09-02-2021.jpg" alt="Arihant Aspire - Overview" /></li>
-					<li><img src="images/projects/aspire/overview/img5.jpg" alt="Arihant Aspire - Overview" /></li>
+					<!-- <li><img src="images/projects/aspire/overview/img5.jpg" alt="Arihant Aspire - Overview" /></li> -->
 					<li><img src="images/projects/aspire/overview/img2.jpg"
 							alt="Arihant Aspire - Designer Landscape | Grand Clubhouse and Indulgences" /></li>
 					<li><img src="images/projects/aspire/overview/img4.jpg"
 							alt="Arihant Aspire - Minitheatre - Banquet Hall" /></li>
-					<li><img src="images/projects/aspire/overview/31-01-2022-01.jpg" alt="Arihant Aspire - Current Status" /></li>
-					<li><img src="images/projects/aspire/overview/31-01-2022-02.jpg" alt="Arihant Aspire - Current Status" /></li>
+					<!-- <li><img src="images/projects/aspire/overview/31-01-2022-01.jpg" alt="Arihant Aspire - Current Status" /></li>
+					<li><img src="images/projects/aspire/overview/31-01-2022-02.jpg" alt="Arihant Aspire - Current Status" /></li> -->
 				</ul>
 			</div>
 
@@ -536,7 +611,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li>G+3 Exclusive Clubhouse with Grand Lobby and 2 Glass Lifts</li>
 					<li>6 Level Car Parking Spaces - Fire Escape Chute </li>
 					<li>Advanced Security with 24x7 CCTV Surveillance </li>
-				</ul>
+				</ul> 
+				
+				<div class="head-call">
+					<br><br><br><br>
+					<span>Call: </span> <a href="tel:8850075775">8850075775</a><br><span class="callsub"></span>
+
+				</div>
 
 
 
@@ -554,7 +635,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-	<section class="project-fet-main" id="project-features">
+	<!-- <section class="project-fet-main" id="project-features">
 		<div class="project-fet-sub containers">
 			<div class="proj-fet-heading">
 				<h1 class="green-text"><span>project features</span><br />a wonderful world of organic experiences</h1>
@@ -648,7 +729,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
 	<section class="project-amenitie-main green-bg" id="amenities">
@@ -842,7 +923,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 				</div> -->
-				Disclaimer: This website is managed by Arihan Aspire (Palaspe-Panvel) Authorised Media Partner
+				Disclaimer: This website is managed by Arihant Aspire (Palaspe-Panvel) Authorised Media Partner
 				 | &#169; 2020 Arihant Changing Lifestyle |
 
 				Designed by <a href="http://github.com/aayu5hgit" rel="nofollow"

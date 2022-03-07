@@ -4,7 +4,38 @@ body{ font-family: 'Open Sans', sans-serif;font-size:16px;color:#666; overflow-y
 
 
 
+.popup {
+  background-color: #f78c63;
+    width: 448px;
+    padding: 29px 40px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 28%;
+    font-family: 'Noto Sans', sans-serif;
+    display: none;
+    text-align: center;
+    z-index: 99;
+    box-shadow: 0px 0px 43px black;
+}
 
+.popup button {
+  display: block;
+    margin: 104px 0 145px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup p {
+  font-size: 14px;
+  text-align: justify;
+  margin: 20px 0;
+  line-height: 25px;
+}
 
 #registationWrapper {  position:fixed;top: 25%;right: 0px;width: 343px;background:#f26520;  z-index: 99;  float:left;}
 #registationBody { display:block !important;position: relative;  left: 0px; top:0px;  padding: 8%;  font-size: 13px;  font-style: normal;  text-transform: none;  text-decoration: none;  color: #000;   text-align: left;  font-weight: normal;  line-height: 21px; float:left;}
@@ -140,9 +171,9 @@ opacity: 0.9; text-decoration:none;
 .head-follow{width:auto; height:auto;float:left;border-left: 1px solid #666666;margin-left: 12px;padding-left: 12px;}
 .head-call{width:auto; height:auto;float:left;}
 .head-follow span{font-size:14px;color:#666666; }
-.head-call{font-size:21px;line-height:24px;color:#231f20;border-left: 1px solid #666666;margin-left: 12px;padding-left: 12px;font-weight: bold;}
-.head-call span{color:#f15922;    font-size: 21px; }
-.head-call span.callsub{color: #000;font-size: 11px;width: 100%;display: block;text-align: center;}
+.head-call{font-size:30px;line-height:24px;color:#231f20;margin-left: 12px;padding-left: 12px;font-weight: bold;}
+.head-call span{color:#f15922;    font-size: 30px; }
+
 /************* Banner ************/
 #myCarousel{width:100%; background-image: url(../404.html);	background-position:center center;	background-size:cover; margin: 0px auto 0; }
 .slide-wrapper, .inner{display:block;padding:0; float:left;}
@@ -811,7 +842,7 @@ header { position: fixed; z-index: 99; background-color: #fff;height: 81px;}
 .mob-topin-mar{margin-top:115px;}
 .on-lo-mar { margin-top: 10px !important; }
 .openregister{display:none;}
-.logo { width: 65%; margin: 10px 0 10px 3%; position: absolute; z-index: 9999;}
+.logo { width: 78%; margin: 10px 0 10px 0%; position: absolute; z-index: 9999;}
 .head-right{display:none !important;}
 .mob-enq{display:block !important;}
 .ban-desk{display:none !important;}
